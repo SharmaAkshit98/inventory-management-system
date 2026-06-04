@@ -1,0 +1,15 @@
+[project]
+name = "inventory-management-system"
+version = "0.1.0"
+description = "Inventory and Order Management System"
+requires-python = ">=3.11"
+
+dependencies = [
+    "fastapi>=0.116.0",
+    "uvicorn[standard]>=0.35.0",
+    "sqlalchemy>=2.0.41",
+    "psycopg2-binary>=2.9.10",
+    "python-dotenv>=1.1.1",
+    "pydantic[email]>=2.11.0",
+    "alembic>=1.16.0"
+]
